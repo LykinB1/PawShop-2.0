@@ -78,9 +78,73 @@
                 </button>
             </div>
         </section>
+
+        <section class="container-fluid d-flex flex-column align-items-center  text-info text-center  my-4"  id="apresentacao">
+            <h2 class="my-3">SEU PET PRECISA DE COMIDA? OU DE UNS PETISCOS? VOCÊ ESTÁ NO LUGAR CERTO!</h2>
+
+            <div class="container row mx-auto" id="grupoApresentacao">
+                <div class="m-0 p-0 col-3" id="dog1">
+                    <img class="w-100" src="images/dogsSection/img1.png" alt="dog1">
+                </div>
+                <div class="m-0 p-0 col-3" id="dog2">
+                    <img class="w-100" src="images/dogsSection/img2.png" alt="dog2">
+                </div>
+                <div class="m-0 p-0 col-3" id="dog3">
+                    <img class="w-100" src="images/dogsSection/img3.png" alt="dog3">
+                </div>
+                <div class="m-0 p-0 col-3" id="dog4">
+                    <img class="w-100" src="images/dogsSection/img4.png" alt="dog4">
+                </div>
+            </div>
+
+            <p class="col-8 text-center">Na nossa empresa, sabemos que seu pet é mais do que apenas um animal de estimação; ele é parte da sua família. Por isso, estamos comprometidos em fornecer os melhores cuidados do mercado, garantindo que seu amiguinho peludo receba toda a atenção, carinho e proteção de que ele precisa. A responsabilidade é o nosso lema, e cuidar do seu pet como se fosse o nosso próprio é a nossa missão. Com uma equipe dedicada de profissionais apaixonados por animais, instalações de ponta e uma variedade de serviços que atendem a todas as necessidades do seu pet, estamos aqui para garantir que ele tenha uma vida feliz e saudável. Deixe-nos cuidar do seu pet, para que você possa aproveitar cada momento especial com ele, sabendo que está em mãos seguras e amorosas.</p>
+
+        </section>
+
+        <section class="p-0 m-0 container-fluid d-flex row justify-content-center" id="catalogo">
+            <!--Coleira-->
+            <div class="d-flex flex-column align-items-center" class="card" id="coleira">
+                <img src="images/products/productImage.png" class="card-img-top" alt="...">
+                <div  class="d-flex flex-column align-items-center" class="card-body">
+                  <h2 class="card-title">Coleira</h2>
+                  <p>A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
+                  
+                  <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtocoleira" id="verMais">
+                Ver Mais
+            </button> 
+                </div>
+              </div>
+
+            <!---->  
+        </section>
     </main>
     <footer>
+        <div id="modais">
+            <!-- Modal coleira -->
+            <div class="modal fade" id="produtocoleira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img class="w-100" src="images/products/productImage.png" alt="">
 
+                      <p>A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
+
+                      <h3 class="text-success my-2">R$499,00</h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-primary btn-success"> <img src="images/cart3.svg" alt=""> Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!------------->
+        </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>

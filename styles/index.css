@@ -1,3 +1,17 @@
 header nav{
     background-color: #6EB3D0;
 }
+#coleira{
+    width: 350px;
+    height: 710px;
+}
+
+#verMais{
+    border: 0px;
+    border-radius: 0px;
+    background-color: #F7B6D2;
+}
+
+#verMais:hover{
+    background-color: #d397b1;
+}
