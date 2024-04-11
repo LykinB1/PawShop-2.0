@@ -92,3 +92,7 @@ form .bg-bluePersonal:hover{
     margin-top: 20px;
     width: 320px;
 }
+
+#formulario h2{
+    color: #d397b1;
+}
