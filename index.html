@@ -101,13 +101,14 @@
 
         </section>
 
-        <section class="p-0 m-0 container-fluid d-flex row justify-content-center" id="catalogo">
-            <!--Coleira-->
-            <div class="d-flex flex-column align-items-center" class="card" id="coleira">
+        <section class="p-0 m-0 container-fluid d-flex row justify-content-center gap-3" id="catalogo">
+          <h1 class="text-center my-5">Catálogo de Produtos</h1>  
+          <!--Coleira-->
+            <div class="d-flex flex-column align-items-center my-4" class="card" id="coleira">
                 <img src="images/products/productImage.png" class="card-img-top" alt="...">
                 <div  class="d-flex flex-column align-items-center" class="card-body">
                   <h2 class="card-title">Coleira</h2>
-                  <p>A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
+                  <p class="text-center">A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
                   
                   <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtocoleira" id="verMais">
@@ -115,37 +116,185 @@
             </button> 
                 </div>
               </div>
+            <!----> 
 
-            <!---->  
+          <!--Comida-->
+          <div class="d-flex flex-column align-items-center my-4" class="card" id="comida">
+              <img src="images/products/productImage2.png" class="card-img-top" alt="...">
+              <div  class="d-flex flex-column align-items-center" class="card-body">
+                <h2 class="card-title">Comida</h2>
+                <p class="text-center">Ofereça ao seu cão a nutrição de que ele precisa com a nossa seleção de alimentos premium. Nossas opções de comida são formuladas com ingredientes de alta qualidade, proporcionando uma dieta equilibrada e saborosa. Temos uma variedade de rações secas, úmidas e até mesmo opções naturais e orgânicas para atender às necessidades alimentares do seu pet. Cuide da saúde do seu cão com o melhor em nutrição, garantindo que ele se sinta energizado e feliz todos os dias.</p>
+                    
+                    <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtocomida" id="verMais2">
+                  Ver Mais
+              </button> 
+                  </div>
+          </div> 
+            <!---->
+          
+          <!--Disco de Brinquedo-->
+          <div class="d-flex flex-column align-items-center my-4" class="card" id="disco">
+            <img src="images/products/productImage3.png" class="card-img-top" alt="...">
+            <div  class="d-flex flex-column align-items-center" class="card-body">
+              <h2 class="card-title">Disco de Brinquedo</h2>
+              <p class="text-center">Mantenha seu cão entretido e ativo com nosso disco de brinquedo, projetado para horas de diversão ao ar livre. Feito de materiais seguros e duráveis, o disco é perfeito para jogos de busca e interação com o seu cão. Seu design aerodinâmico permite lançamentos precisos, proporcionando ao seu peludo momentos de alegria e exercício. Leve-o para o parque ou o quintal e desfrute de momentos emocionantes e saudáveis com seu cão, fortalecendo ainda mais a conexão entre vocês.</p>
+              
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtodisco" id="verMais3">
+            Ver Mais
+        </button> 
+            </div>
+          </div> 
+          <!---->
+
+          <!--Casinha-->
+          <div class="d-flex flex-column align-items-center my-4" class="card" id="casinha">
+            <img src="images/products/productImage4.png" class="card-img-top" alt="...">
+            <div  class="d-flex flex-column align-items-center" class="card-body">
+              <h2 class="card-title">Casinha</h2>
+              <p class="text-center">Nossa casinha para cães é um verdadeiro lar dentro de casa. Feita com materiais duráveis e resistentes às intempéries, ela oferece um refúgio seguro e aconchegante para o seu pet. Com um design espaçoso e confortável, a casinha é o local perfeito para seu cão descansar, se abrigar do sol ou da chuva, e relaxar com todo o conforto que merece. Garanta que seu melhor amigo tenha um lugar aconchegante para chamar de seu com a nossa casinha de qualidade.</p>
+              
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtocasinha" id="verMais4">
+            Ver Mais
+        </button> 
+            </div>
+          </div> 
+          <!---->
+        </section>
+
+        <section id="formulario">
+          <h2 class="text-center my-5">ADOTE UM PET</h2>
+          <div class="p-0 m-0 container-fluid row" id="formularioConteudo">
+            <aside class="col-6 d-flex justify-content-center align-items-center">
+              <form class="w-75">
+                <div class="mb-3">
+                  <label for="email"  class="form-label">Email</label>
+                  <input type="email" placeholder="Insira seu Email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="tel" placeholder="Insira seu Telefone" class="form-control" id="telefone">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="checkbox">
+                  <label class="form-check-label" for="checkbox">Aceita receber notificações?</label>
+                </div>
+                <button type="submit" class="btn bg-bluePersonal">ENVIAR</button>
+              </form>
+
+            </aside>
+            <aside class="p-0 col-6">
+              <img class="w-100" src="images/imgBanner.png" alt="">
+            </aside>
+          </div>
         </section>
     </main>
-    <footer>
-        <div id="modais">
-            <!-- Modal coleira -->
-            <div class="modal fade" id="produtocoleira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <img class="w-100" src="images/products/productImage.png" alt="">
+    <footer class="bg-bluePersonal py-3 container-fluid">
+      <p>Todos os direitos reservados a @PawShop 2024</p>
+    </footer>
+    <div id="modais">
+        <!-- Modal coleira -->
+        <div class="modal fade" id="produtocoleira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="w-100" src="images/products/productImage.png" alt="">
 
-                      <p>A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
+                  <p>A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
 
-                      <h3 class="text-success my-2">R$499,00</h3>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Fechar</button>
-                      <button type="button" class="btn btn-primary btn-success"> <img src="images/cart3.svg" alt=""> Adicionar ao carrinho</button>
-                    </div>
-                  </div>
+                  <h3 class="text-success my-2">R$499,00</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-primary btn-success"> <img src="images/cart3.svg" alt=""> Adicionar ao carrinho</button>
                 </div>
               </div>
-              <!------------->
+            </div>
+          </div>
+          <!------------->
+
+
+          <!-- Modal comida -->
+        <div class="modal fade" id="produtocomida" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Comida</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img class="w-100" src="images/products/productImage2.png" alt="">
+
+                <p>Ofereça ao seu cão a nutrição de que ele precisa com a nossa seleção de alimentos premium. Nossas opções de comida são formuladas com ingredientes de alta qualidade, proporcionando uma dieta equilibrada e saborosa. Temos uma variedade de rações secas, úmidas e até mesmo opções naturais e orgânicas para atender às necessidades alimentares do seu pet. Cuide da saúde do seu cão com o melhor em nutrição, garantindo que ele se sinta energizado e feliz todos os dias.</p>
+
+                <h3 class="text-success my-2">R$320,00</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary btn-success"> <img src="images/cart3.svg" alt=""> Adicionar ao carrinho</button>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+        <!------------->
+
+
+        <!-- Modal disco -->
+        <div class="modal fade" id="produtodisco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Disco de Brinquedo</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img class="w-100" src="images/products/productImage3.png" alt="">
+
+                <p>Mantenha seu cão entretido e ativo com nosso disco de brinquedo, projetado para horas de diversão ao ar livre. Feito de materiais seguros e duráveis, o disco é perfeito para jogos de busca e interação com o seu cão. Seu design aerodinâmico permite lançamentos precisos, proporcionando ao seu peludo momentos de alegria e exercício. Leve-o para o parque ou o quintal e desfrute de momentos emocionantes e saudáveis com seu cão, fortalecendo ainda mais a conexão entre vocês.</p>
+
+                <h3 class="text-success my-2">R$1.200,00</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary btn-success"> <img src="images/cart3.svg" alt=""> Adicionar ao carrinho</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------->
+
+
+        <!-- Modal casinha -->
+        <div class="modal fade" id="produtocasinha" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Casinha</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img class="w-100" src="images/products/productImage4.png" alt="">
+
+                <p>Nossa casinha para cães é um verdadeiro lar dentro de casa. Feita com materiais duráveis e resistentes às intempéries, ela oferece um refúgio seguro e aconchegante para o seu pet. Com um design espaçoso e confortável, a casinha é o local perfeito para seu cão descansar, se abrigar do sol ou da chuva, e relaxar com todo o conforto que merece. Garanta que seu melhor amigo tenha um lugar aconchegante para chamar de seu com a nossa casinha de qualidade.</p>
+
+                <h3 class="text-success my-2">R$5.700,00</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary btn-success"> <img src="images/cart3.svg" alt=""> Adicionar ao carrinho</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------->
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
         var botaoTema = document.querySelector("#trocartemabtn")

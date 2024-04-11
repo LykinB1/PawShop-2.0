@@ -1,9 +1,16 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 header nav{
     background-color: #6EB3D0;
 }
 #coleira{
     width: 350px;
-    height: 710px;
+    height: 750px;
+    border: solid 1px;
+    border-radius: 0px;
 }
 
 #verMais{
@@ -14,4 +21,74 @@ header nav{
 
 #verMais:hover{
     background-color: #d397b1;
+}
+
+#catalogo h1{
+    color: #F4A623;
+}
+
+.bg-bluePersonal{
+    background-color: #6EB3D0;
+    text-align: center;
+}
+
+form .bg-bluePersonal:hover{
+    background-color: #5891aa;
+}
+
+
+#comida{
+    width: 350px;
+    height: 750px;
+    border: solid 1px;
+    border-radius: 0px;
+}
+
+#verMais2{
+    border: 0px;
+    border-radius: 0px;
+    background-color: #F7B6D2;
+}
+
+#verMais2:hover{
+    background-color: #d397b1;
+}
+
+#disco{
+    width: 350px;
+    height: 750px;
+    border: solid 1px;
+    border-radius: 0px;
+}
+
+#verMais3{
+    border: 0px;
+    border-radius: 0px;
+    background-color: #F7B6D2;
+}
+
+#verMais3:hover{
+    background-color: #d397b1;
+}
+
+#casinha{
+    width: 350px;
+    height: 750px;
+    border: solid 1px;
+    border-radius: 0px;
+}
+
+#verMais4{
+    border: 0px;
+    border-radius: 0px;
+    background-color: #F7B6D2;
+}
+
+#verMais4:hover{
+    background-color: #d397b1;
+}
+
+#catalogo img{
+    margin-top: 20px;
+    width: 320px;
 }
